@@ -20,5 +20,9 @@ dir
 
 ! git remote add origin https://github.com/zoneja/DJI.git
 
+
 list make if missing(rep78)
-*Added a list of missings
+
+drop if rep78==.
+
+! git remote add origin git@github.com:zoneja/git-with-stata.git
